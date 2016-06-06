@@ -63,7 +63,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void showWinner(String winner){
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
-        builder.setMessage(winner + " Wins!!!!");
+        builder.setMessage(winner + " Player Wins!\n \nGood Job. Wanna try it again?");
 
         builder.setPositiveButton(
                 "Play Again!",
@@ -85,7 +85,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void showIntro(){
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
-        builder.setMessage("Hello There!\n \nThis is Tap Tap! This game consists of two buttons, a green one and a blue one. " +
+        builder.setMessage("Hello There!\n \nThis is Tap Tap! This game consists of two buttons, a red one and a blue one. " +
                 "Players must tap their buttons as fast as they can to win. First player to reach 30 taps WINS!!\n \nGood luck! and keep on tapping. ");
 
         builder.setPositiveButton(
